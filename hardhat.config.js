@@ -23,6 +23,7 @@ module.exports = {
     testnet: {
       url: "https://data-seed-prebsc-1-s1.binance.org:8545",
       chainId: 97,
+      gas: 300000,
       gasPrice: 20000000000,
       accounts: { mnemonic: mnemonic },
     },
